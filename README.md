@@ -27,7 +27,7 @@ Examples
 
 Download all photos from LeBron James Instagram Photos with 10 workers.
 
-  goInstagramDownloader -n=kingjames -c=10
+  Insta-Photo-Downloader -n=kingjames -c=10
 
 
 
