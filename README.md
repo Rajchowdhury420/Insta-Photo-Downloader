@@ -11,7 +11,7 @@ Note, you need go to [Instagram developer page](https://instagram.com/developer/
 Usage
 ---------------------
 
-    goInstagramDownloader [options] 
+    Insta-Photo-Downloader [options] 
 
 All the photos will download to `USERS/Pictures/goInstagram`.
 
