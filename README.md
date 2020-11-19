@@ -2,7 +2,7 @@
 Install
 --------------
 
-    go get -u -x github.com/kkdai/goInstagramDownloader
+    go get -u -x github.com/Rajchowdhury420/Insta-Photo-Downloader
 
 Note, you need go to [Instagram developer page](https://instagram.com/developer/clients/manage/) to get latest token and update in environment variables
 
