@@ -18,7 +18,7 @@ All the photos will download to `USERS/Pictures/goInstagram`.
 Options
 ---------------
 
-- `-n` Instagram page name such as: [kingjames](https://instagram.com/kingjames/) 
+- `-n` Instagram page name such as: [Yanzee Sherpa](https://www.instagram.com/y.a.n.z.e.e/) 
 - `-c` number of workers. (concurrency), default workers is "2"
 
 
@@ -27,7 +27,7 @@ Examples
 
 Download all photos from LeBron James Instagram Photos with 10 workers.
 
-  Insta-Photo-Downloader -n=kingjames -c=10
+  Insta-Photo-Downloader -n=y.a.n.z.e.e -c=10
 
 
 
