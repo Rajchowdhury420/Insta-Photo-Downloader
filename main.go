@@ -65,7 +65,7 @@ func DownloadWorker(destDir string, linkChan chan string, wg *sync.WaitGroup) {
 			continue
 		}
 
-		// Ignore small images
+		
 		bounds := m.Bounds()
 		if bounds.Size().X > 300 && bounds.Size().Y > 300 {
 			imgInfo := fmt.Sprintf("pic%04d", GetFileIndex())
@@ -138,11 +138,11 @@ func main() {
 	}
 	inputUser = *instaName
 
-	//Get system user folder
+	
 	usr, _ := user.Current()
 	baseDir := fmt.Sprintf("%v/Pictures/goInstagram", usr.HomeDir)
 
-	//Get User info
+	
 	client = instagram.NewClient(nil)
 	client.ClientID = ClientID
 
